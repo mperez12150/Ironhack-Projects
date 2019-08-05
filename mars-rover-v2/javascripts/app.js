@@ -197,7 +197,6 @@ console.log('Travel Log');
 
 console.log(travelLog);
 console.log('\n');
-
 console.log('\n');
 
 console.log(rover);
