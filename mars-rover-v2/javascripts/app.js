@@ -7,7 +7,7 @@ var travelLog = [];
 var theGrid = createMatrix(10, 10);
 
 console.log('You are currently facing: ' + rover.direction);
-console.log('You currently positioned at : ' + rover.position);
+console.log('You currently are positioned at : ' + rover.position);
 console.log('\n');
 
 function createMatrix(columns, rows) {
