@@ -1,0 +1,307 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+* {
+  font-family: "Open Sans", OpenSans, sans-serif;
+  font-weight: 10
+}
+
+.container {
+  margin: 0 auto;
+  padding: 10px 0;
+  width: auto;
+}
+
+nav {
+  background-color: #c12127;
+  color: rgba(255, 255, 255, 0.8);
+  padding: 10px;
+  height: 15px;
+}
+
+nav a {
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+}
+
+nav div a,
+span {
+  
+  text-justify: up;
+}
+.top-links {
+  padding: 0;
+  margin: 0 20px 0 0;
+}
+
+.top-links li {
+  display: inline-block;
+  margin: 0 10px;
+  text-align: right;
+}
+
+.top-left {
+  display: inline-block;
+}
+
+.clear {
+  clear: both;
+}
+
+.right {
+  float: right;
+}
+
+.left {
+  float:left
+}
+
+.form {
+  display: block;
+  width: 60%;
+}
+
+.formdiv {
+
+    margin: 0 auto;
+  padding: 5px;
+  
+}
+.signup {
+  text-align: right;
+  padding-right: 10px;
+  float:right;
+  text-decoration: none;
+  
+}
+
+#header div a {
+  text-decoration: none;
+  color: white
+}
+
+#header div a:hover {
+  text-decoration: underline;
+}
+
+.build p {
+  font-size: 20px
+}
+
+.build {
+  width: 20%;
+  margin-top:100px;
+  margin-left: 22%;
+  padding: 10px ;
+  line-height: 1.7em
+
+  
+}
+
+.npmlogo img {
+  padding-left: 20px;
+}
+
+.header {
+  background: rgb(31, 82, 111);
+  height: 600px;
+  color: white;
+  background-image: url("images/city-scape.svg")
+}
+
+h1 {
+  text-emphasis: none;
+  line-height: 60px;
+  font-size: 50px;
+  font-stretch: expanded
+}
+
+.button {
+    background-color: #f09233 ;
+    color: #fff;
+
+    -webkit-transition: all 300ms ease-out;
+    transition: all 300ms ease-out;
+    font-weight: 500;
+    border-radius: 20px;
+    padding: 7px 18px 8px 18px;
+    font-size: 18px;
+    -webkit-font-smoothing: antialiased;
+    width: 70%
+    
+}
+
+ .button:hover {
+      background-color: #DC8234;
+      color: white;
+ }
+
+#npmorg.backstyle {
+
+  color: white;
+  background-color: #2A3545;
+  margin:auto;
+  padding: 30px 20%;
+  height: 655px;
+}
+
+#npmorg h2 {
+  font-size: 34px
+}
+
+#npmorg .orgdiv {
+  width: 40%;
+  margin: auto auto;
+  padding: 120px 0 ;
+  line-height: 2em;
+  font-size: 18px
+}
+
+#npmorg div img {
+  width: 48%;
+  float: left;
+  padding: 120px 0
+}
+
+.orclassp {
+  text-align: center
+}
+.orclass {
+
+  color: white;
+  text-decoration: none
+}
+.orclass:hover {
+  text-decoration: underline
+}
+
+
+.buttonorgs {
+  background: rgb(203, 56, 55);
+  outline: none;
+  -webkit-transition: all 300ms ease-out;
+  transition: all 300ms ease-out;
+  font-weight: 500;
+  border-radius: 20px;
+  padding: 7px 18px 8px 18px;
+  font-size: 18px;
+  -webkit-font-smoothing: antialiased;
+  width: 90%; 
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+  color: white;
+}
+
+.whatbackground {
+  background-size: cover;
+  height: 500px;
+  background-color: steelblue;
+  background-image: url("images/forklift.svg")
+}
+
+#npmwhat div {
+
+  padding: 5% 50% 5% 23%;
+  color: white;
+
+}
+
+#npmwhat h2 {
+  font-size: 34px
+}
+
+#npmwhat p {
+  line-height: 30px
+}
+
+#npmwhat button {
+    background: rgb(49, 68, 88);
+  border: 1px solid grey;
+  color: white;
+  -webkit-transition: all 300ms ease-out;
+  transition: all 300ms ease-out;
+  font-weight: 500;
+  border-radius: 20px;
+  padding: 7px 18px 8px 18px;
+  font-size: 18px;
+  -webkit-font-smoothing: antialiased;
+  width: 30%; 
+  text-align: center;
+  display: block;
+  
+}
+
+#npmtask .textformat {
+  margin: 0 auto;
+  padding: 40px 25%;
+  text-align: center
+}
+
+#npmtask h2 {
+  font-size: 34px
+}
+
+
+#npmtask article p a {
+  color: rgb(203,56,55);
+  text-decoration: none;
+  text-emphasis: bold
+}
+
+#npmtask a:hover {
+  text-decoration: underline
+}
+
+#npmtask .sectionblocks {
+   text-align: center;
+}
+
+.col {
+  float: left;
+}
+
+.col-3 {
+  width: 15%;
+  border: 1px solid white;
+  display: inline-block
+}
+
+.col-4 {
+  width: 22.5%;  
+  border: 1px solid white
+}
+
+.col-middle {
+  padding: 0 5%;
+}
+
+.search {
+  width: 78%;
+  position: relative;
+  padding-left: 40px;
+  padding-top: 5px
+
+}
+
+.searchTerm {
+  float: left;
+  width: 100%;
+  padding: 5px;
+  height: 22px;
+  display: block;
+  background-color: rgb(31, 82, 111);
+  border: 0px;
+  font-size: 15px
+}
+
+.searchTerm:focus{
+  color: #00B4CC;
+}
+
+.wrap{
+  width: 30%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
